@@ -12,8 +12,32 @@ import java.util.Stack;
  */
 public class Demo {
     public static void mani(String[] args) {
+        
         Stack s1 = new Stack();
         Stack s2 = new Stack();
         s1.push("Larry");
+        s2 = (Stack)s1.clone();
+        
+        /*
+        Stack s1 = new Stack();
+        Stack s2 = new Stack();
+        s2 = s1;
+        s2.push("Larry");
+        */
+        
+        /*
+        int size = 10;
+        int[] a= new int[size];
+        
+        for (int i = 0 ; i < a.length ; i++) {
+            a[i] = 13;
+        }
+        */
+        
+        /*
+        Stack s1 = new Stack();
+        Stack s2 = new Stack();
+        s1.push("Larry");
+        */
     }
 }
